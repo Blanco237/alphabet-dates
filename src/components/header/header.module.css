@@ -1,0 +1,44 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 86px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 6rem;
+  gap: 2rem;
+}
+
+.link {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: color 300ms ease;
+}
+
+.link:hover {
+    color: #3f2b96b3;
+}
+
+.active {
+    color: #3f2b96b3;
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    aspect-ratio: 1/1;
+    display: block;
+    width: 10px;
+    border-radius: 100%;
+    background-color: #3f2b96b3;
+    left: 50%;
+  transform: translateX(-50%);
+}

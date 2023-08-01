@@ -1,0 +1,36 @@
+.body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+
+.image {
+  position: absolute;
+}
+
+.weddingRings {
+  right: 0;
+  top: 1rem;
+}
+
+.cupid {
+  left: 0;
+  top: 10%;
+  width: 15%;
+}
+
+.dice {
+  bottom: 0;
+  left: 0;
+}
+
+.gender {
+  right: 0;
+  bottom: 3rem;
+}
